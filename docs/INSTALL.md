@@ -15,11 +15,11 @@ You need the following software packages to install and use this extension (main
 
 ## Install the native application
 
-``
-git clone https://github.com/Takios/download-with-kget
-cd download-with-kget/src/native
-sudo make install
-``
+
+    git clone https://github.com/Takios/download-with-kget
+    cd download-with-kget/src/native
+    sudo make install
+
 
 ## Install the extension
 
