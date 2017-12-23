@@ -16,7 +16,10 @@ function onSentError(error) {
 function addDownloadToKget(info, tab) {
 
   if (info.menuItemId == "download-with-kget"){
-    if (info.linkUrl) {
+    if (info.srcUrl) {
+      downloadUrl = info.srcUrl;
+      console.log("Found src URL");
+    } else if (info.linkUrl) {
       downloadUrl = info.linkUrl;
       console.log("Found link URL");
     } else if (info.frameUrl) {
