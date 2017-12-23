@@ -1,0 +1,25 @@
+{
+
+  "manifest_version": 2,
+  "name": "Download with KGet",
+  "version": "0.1",
+
+  "description": "Adds a button to most context menus to send a link to KGet for download",
+  "homepage_url": "https://takios.de/projects/download_with_kget",
+
+ "permissions": [
+   "nativeMessaging",
+   "contextMenus",
+   "notifications"
+  ],
+
+ "background": {
+    "scripts": ["download_with_kget.js"]
+  },
+
+  "applications": {
+    "gecko": {
+      "id": "download_with_kget@takios.de"
+    }
+  }
+}
