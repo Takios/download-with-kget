@@ -1,7 +1,7 @@
 {
   "name": "download_with_kget",
   "description": "Send downloads to KGet",
-  "path": "/usr/lib/mozilla/native-messaging-hosts/download_with_kget.py",
+  "path": "/usr/local/bin/download_with_kget_integration",
   "type": "stdio",
   "allowed_extensions": [ "download_with_kget@takios.de" ]
 }

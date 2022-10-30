@@ -1,7 +1,0 @@
-{
-  "name": "download_with_kget",
-  "description": "Send downloads to KGet",
-  "path": "/usr/lib64/mozilla/native-messaging-hosts/download_with_kget.py",
-  "type": "stdio",
-  "allowed_extensions": [ "download_with_kget@takios.de" ]
-}
