@@ -3,6 +3,7 @@ import sys
 import struct
 import json
 
+import time
 from pydbus import SessionBus
 
 
@@ -33,6 +34,7 @@ try:
 # KGet will get started by dbus if it's not running so trying a second time could be successful.
 except Exception:
     try:
+        time.sleep(2) # Give KGet a moment to start up properly
         dbus_kget = bus.get('org.kde.kget', '/KGet')
     except Exception:
         send_message(encode_message("Could not connect to KGet. Is it running?\n"))
